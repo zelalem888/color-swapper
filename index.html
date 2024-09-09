@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Swapper</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <center>
+            <div class="main">
+                <div class="title">Color Swapper</div>
+                <p class="desc">This setup features a toggle button that switches between "on" and "off" states. When clicked, the button activates the color-changing feature, allowing users to see the colors of the boxes change randomly.
+                </p>
+                <div class="box" id="box">
+                    <div id="a" class="mini-box"></div>
+                    <div id="b" class="mini-box"></div>
+                    <div id="c" class="mini-box"></div>
+                    <div id="d" class="mini-box"></div>
+                    <div id="e" class="mini-box"></div>
+                    <div id="f" class="mini-box"></div>
+                </div>
+            </div>
+        </center>
+        <div class="toggle-box">
+            <div id="toggle" onclick="toggleFunction()">
+                <img src="off.jpg" alt="">
+            </div>
+            <p id="p">OFF</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
